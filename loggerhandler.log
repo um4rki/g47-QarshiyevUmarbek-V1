@@ -1,0 +1,9 @@
+SEVERE, 1, Task4.TestHandler, Exception be careful!
+java.lang.RuntimeException: Exception occurred!
+	at Task4.TestHandler.main(TestHandler.java:22)
+SEVERE,SEVERE, 1, Task4.TestHandler, Exception occurred!
+java.lang.RuntimeException: Exception occurred!
+	at Task4.TestHandler.main(TestHandler.java:22)
+SEVERE, 1, Task4.TestHandler, Exception occurred!
+java.lang.RuntimeException: Exception occurred!
+	at Task4.TestHandler.main(TestHandler.java:22)
