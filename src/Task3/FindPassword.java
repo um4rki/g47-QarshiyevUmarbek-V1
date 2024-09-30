@@ -15,7 +15,7 @@ public class FindPassword {
             while ((line = br.readLine()) != null) {
                 text.append(line);
             }
-            findPassword(String.valueOf(text),"[a-z]{8,}","Mustahkam parolllar ");
+            findPassword(String.valueOf(text),"[a-zA-Z0-9]{8,}","Mustahkam parolllar ");
 
         } catch (IOException e) {
             throw new RuntimeException(e);
